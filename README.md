@@ -1,4 +1,4 @@
-#Regulatory DNA Prediction from Peak and Context Sequences Using BiLSTMs and Transformers
+## Regulatory DNA Prediction from Peak and Context Sequences Using BiLSTMs and Transformers
 
 A deep learning project investigating whether genomic context alone contains sufficient information to predict regulatory DNA activity.
 

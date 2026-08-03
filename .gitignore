@@ -24,19 +24,24 @@ Thumbs.db
 # Logs
 *.log
 
-# Large genomics data
-data/
-*.fa
-*.fasta
-*.fai
-*.bed
-*.bam
-*.bai
-*.sam
-*.vcf
-*.vcf.gz
-*.fastq
-*.fastq.gz
+# Ignore data files, but keep the directory and README
+data/*
+!data/README.md
+
+# Genomics files
+data/*.fa
+data/*.fasta
+data/*.fai
+data/*.bed
+data/*.bam
+data/*.bai
+data/*.sam
+data/*.vcf
+data/*.vcf.gz
+data/*.fastq
+data/*.fastq.gz
+data/*.csv
+data/*.tsv
 
 # Model checkpoints
 *.pt

@@ -44,8 +44,5 @@ data/
 *.ckpt
 *.onnx
 
-# Training outputs
-results/
-
 # Environment files
 .env

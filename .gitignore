@@ -43,11 +43,5 @@ data/*.fastq.gz
 data/*.csv
 data/*.tsv
 
-# Model checkpoints
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
 # Environment files
 .env

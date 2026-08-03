@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large genomics data
+data/
+*.fa
+*.fasta
+*.fai
+*.bed
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.fastq
+*.fastq.gz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Training outputs
+results/
+
+# Environment files
+.env
